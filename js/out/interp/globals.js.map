@@ -1,0 +1,1 @@
+{"version":3,"file":"\/Users\/danielfloresg\/cs\/interpush-code\/public\/js\/out\/interp\/globals.js","sources":["globals.cljc?rel=1626961177652"],"lineCount":6,"mappings":";AAAA;;AAEA,AAAKA,mCAAkB,yBAAA,zBAACC","names":["interp.globals\/instruction-table","cljs.core\/atom"]}
