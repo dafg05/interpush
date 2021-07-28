@@ -14,13 +14,13 @@ cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.a
 return propeller.push.utils.helpers.make_instruction.call(null,state,propeller.tools.character.is_whitespace,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"char","char",-641587586)], null),new cljs.core.Keyword(null,"boolean","boolean",-1919418404));
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"boolean","boolean",-1919418404),null,new cljs.core.Keyword(null,"char","char",-641587586),null], null), null)], null)));
 cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.assoc,new cljs.core.Keyword(null,"char_from_float","char_from_float",-1011986170),cljs.core.with_meta((function (state){
-return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__31158_SHARP_){
-return cljs.core.char$.call(null,cljs.core.mod.call(null,cljs.core.long$.call(null,p1__31158_SHARP_),(128)));
+return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__26090_SHARP_){
+return cljs.core.char$.call(null,cljs.core.mod.call(null,cljs.core.long$.call(null,p1__26090_SHARP_),(128)));
 }),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"float","float",-1732389368)], null),new cljs.core.Keyword(null,"char","char",-641587586));
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"float","float",-1732389368),null,new cljs.core.Keyword(null,"char","char",-641587586),null], null), null)], null)));
 cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.assoc,new cljs.core.Keyword(null,"char_from_integer","char_from_integer",1914025369),cljs.core.with_meta((function (state){
-return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__31159_SHARP_){
-return cljs.core.char$.call(null,cljs.core.mod.call(null,p1__31159_SHARP_,(128)));
+return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__26091_SHARP_){
+return cljs.core.char$.call(null,cljs.core.mod.call(null,p1__26091_SHARP_,(128)));
 }),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"integer","integer",-604721710)], null),new cljs.core.Keyword(null,"char","char",-641587586));
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"integer","integer",-604721710),null,new cljs.core.Keyword(null,"char","char",-641587586),null], null), null)], null)));
 cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.assoc,new cljs.core.Keyword(null,"char_all_from_string","char_all_from_string",-1727094648),cljs.core.with_meta((function (state){
@@ -33,4 +33,4 @@ return propeller.push.state.push_to_stack_many.call(null,popped_state,new cljs.c
 }
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"string","string",-1989541586),null,new cljs.core.Keyword(null,"char","char",-641587586),null], null), null)], null)));
 
-//# sourceMappingURL=character.js.map?rel=1626961181925
+//# sourceMappingURL=character.js.map?rel=1627432842222

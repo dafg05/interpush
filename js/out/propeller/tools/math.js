@@ -58,8 +58,8 @@ return Math.floor(x);
  *   argument, returns the natural logarithm (base e) of the given value.
  */
 propeller.tools.math.log = (function propeller$tools$math$log(var_args){
-var G__31291 = arguments.length;
-switch (G__31291) {
+var G__26223 = arguments.length;
+switch (G__26223) {
 case 2:
 return propeller.tools.math.log.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -144,4 +144,4 @@ propeller.tools.math.tan = (function propeller$tools$math$tan(x){
 return Math.tan(x);
 });
 
-//# sourceMappingURL=math.js.map?rel=1626961182086
+//# sourceMappingURL=math.js.map?rel=1627432842400

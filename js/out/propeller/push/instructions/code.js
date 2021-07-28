@@ -5,8 +5,8 @@ goog.require('propeller.utils');
 goog.require('propeller.push.state');
 goog.require('propeller.push.utils.helpers');
 cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.assoc,new cljs.core.Keyword(null,"code_append","code_append",290946085),cljs.core.with_meta((function (state){
-return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__31279_SHARP_,p2__31278_SHARP_){
-return propeller.utils.not_lazy.call(null,cljs.core.concat.call(null,propeller.utils.ensure_list.call(null,p2__31278_SHARP_),propeller.utils.ensure_list.call(null,p1__31279_SHARP_)));
+return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__26211_SHARP_,p2__26210_SHARP_){
+return propeller.utils.not_lazy.call(null,cljs.core.concat.call(null,propeller.utils.ensure_list.call(null,p2__26210_SHARP_),propeller.utils.ensure_list.call(null,p1__26211_SHARP_)));
 }),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"code","code",1586293142),new cljs.core.Keyword(null,"code","code",1586293142)], null),new cljs.core.Keyword(null,"code","code",1586293142));
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"code","code",1586293142),null], null), null)], null)));
 cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.assoc,new cljs.core.Keyword(null,"exec_do_range","exec_do_range",1586205019),cljs.core.with_meta((function (state){
@@ -45,18 +45,18 @@ return propeller.push.state.push_to_stack.call(null,popped_state,new cljs.core.K
 }
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"exec","exec",1625568743),null,new cljs.core.Keyword(null,"integer","integer",-604721710),null], null), null)], null)));
 cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.assoc,new cljs.core.Keyword(null,"exec_if","exec_if",-1891127445),cljs.core.with_meta((function (state){
-return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__31280_SHARP_,p2__31282_SHARP_,p3__31281_SHARP_){
-if(cljs.core.truth_(p1__31280_SHARP_)){
-return p3__31281_SHARP_;
+return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__26212_SHARP_,p2__26214_SHARP_,p3__26213_SHARP_){
+if(cljs.core.truth_(p1__26212_SHARP_)){
+return p3__26213_SHARP_;
 } else {
-return p2__31282_SHARP_;
+return p2__26214_SHARP_;
 }
 }),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boolean","boolean",-1919418404),new cljs.core.Keyword(null,"exec","exec",1625568743),new cljs.core.Keyword(null,"exec","exec",1625568743)], null),new cljs.core.Keyword(null,"exec","exec",1625568743));
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"exec","exec",1625568743),null,new cljs.core.Keyword(null,"boolean","boolean",-1919418404),null], null), null)], null)));
 cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.assoc,new cljs.core.Keyword(null,"exec_when","exec_when",1360752950),cljs.core.with_meta((function (state){
-return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__31283_SHARP_,p2__31284_SHARP_){
-if(cljs.core.truth_(p1__31283_SHARP_)){
-return p2__31284_SHARP_;
+return propeller.push.utils.helpers.make_instruction.call(null,state,(function (p1__26215_SHARP_,p2__26216_SHARP_){
+if(cljs.core.truth_(p1__26215_SHARP_)){
+return p2__26216_SHARP_;
 } else {
 return null;
 }
@@ -96,10 +96,10 @@ cljs.core.swap_BANG_.call(null,propeller.push.core.instruction_table,cljs.core.a
 if((cljs.core.count.call(null,new cljs.core.Keyword(null,"exec","exec",1625568743).cljs$core$IFn$_invoke$arity$1(state)) < (3))){
 return state;
 } else {
-var vec__31285 = propeller.push.state.peek_stack_many.call(null,state,new cljs.core.Keyword(null,"exec","exec",1625568743),(3));
-var a = cljs.core.nth.call(null,vec__31285,(0),null);
-var b = cljs.core.nth.call(null,vec__31285,(1),null);
-var c = cljs.core.nth.call(null,vec__31285,(2),null);
+var vec__26217 = propeller.push.state.peek_stack_many.call(null,state,new cljs.core.Keyword(null,"exec","exec",1625568743),(3));
+var a = cljs.core.nth.call(null,vec__26217,(0),null);
+var b = cljs.core.nth.call(null,vec__26217,(1),null);
+var c = cljs.core.nth.call(null,vec__26217,(2),null);
 var popped_state = propeller.push.state.pop_stack_many.call(null,state,new cljs.core.Keyword(null,"exec","exec",1625568743),(3));
 var to_push_back = (new cljs.core.List(null,a,(new cljs.core.List(null,c,(new cljs.core.List(null,(new cljs.core.List(null,b,(new cljs.core.List(null,c,null,(1),null)),(2),null)),null,(1),null)),(2),null)),(3),null));
 return propeller.push.state.push_to_stack_many.call(null,popped_state,new cljs.core.Keyword(null,"exec","exec",1625568743),to_push_back);
@@ -116,4 +116,4 @@ return propeller.push.state.push_to_stack_many.call(null,popped_state,new cljs.c
 }
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stacks","stacks",-456633410),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"exec","exec",1625568743),null], null), null)], null)));
 
-//# sourceMappingURL=code.js.map?rel=1626961182064
+//# sourceMappingURL=code.js.map?rel=1627432842376
