@@ -23,16 +23,16 @@ return propeller.push.instructions.input_output.handle_input_instruction.call(nu
 } else {
 if(cljs.core.truth_(literal_type)){
 if(cljs.core._EQ_.call(null,new cljs.core.Keyword(null,"generic-vector","generic-vector",1279149583),literal_type)){
-return cljs.core.reduce.call(null,(function (p1__26080_SHARP_,p2__26081_SHARP_){
-return cljs.core.update_in.call(null,p1__26080_SHARP_,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [p2__26081_SHARP_], null),cljs.core.conj,cljs.core.PersistentVector.EMPTY);
+return cljs.core.reduce.call(null,(function (p1__26683_SHARP_,p2__26684_SHARP_){
+return cljs.core.update_in.call(null,p1__26683_SHARP_,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [p2__26684_SHARP_], null),cljs.core.conj,cljs.core.PersistentVector.EMPTY);
 }),popped_state,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"vector_boolean","vector_boolean",-1460932838),new cljs.core.Keyword(null,"vector_float","vector_float",1822584650),new cljs.core.Keyword(null,"vector_integer","vector_integer",-233801340),new cljs.core.Keyword(null,"vector_string","vector_string",-1776005283)], null));
 } else {
 return propeller.push.state.push_to_stack.call(null,popped_state,literal_type,instruction);
 }
 } else {
 if(cljs.core.seq_QMARK_.call(null,instruction)){
-return cljs.core.update.call(null,popped_state,new cljs.core.Keyword(null,"exec","exec",1625568743),(function (p1__26083_SHARP_,p2__26082_SHARP_){
-return cljs.core.concat.call(null,p2__26082_SHARP_,p1__26083_SHARP_);
+return cljs.core.update.call(null,popped_state,new cljs.core.Keyword(null,"exec","exec",1625568743),(function (p1__26686_SHARP_,p2__26685_SHARP_){
+return cljs.core.concat.call(null,p2__26685_SHARP_,p1__26686_SHARP_);
 }),instruction);
 } else {
 throw (new Error(["Unrecognized Push instruction in program: ",cljs.core.name.call(null,instruction)].join('')));
@@ -58,14 +58,14 @@ return cljs.core.assoc.call(null,state,new cljs.core.Keyword(null,"history","his
 return state;
 }
 } else {
-var G__26084 = cljs.core.update.call(null,propeller.push.interpreter.interpret_one_step.call(null,state),new cljs.core.Keyword(null,"step","step",1288888124),cljs.core.inc);
-var G__26085 = (cljs.core.truth_(new cljs.core.Keyword(null,"keep-history","keep-history",1232813028).cljs$core$IFn$_invoke$arity$1(state))?cljs.core.conj.call(null,history,state):null);
-state = G__26084;
-history = G__26085;
+var G__26687 = cljs.core.update.call(null,propeller.push.interpreter.interpret_one_step.call(null,state),new cljs.core.Keyword(null,"step","step",1288888124),cljs.core.inc);
+var G__26688 = (cljs.core.truth_(new cljs.core.Keyword(null,"keep-history","keep-history",1232813028).cljs$core$IFn$_invoke$arity$1(state))?cljs.core.conj.call(null,history,state):null);
+state = G__26687;
+history = G__26688;
 continue;
 }
 break;
 }
 });
 
-//# sourceMappingURL=interpreter.js.map?rel=1627432842189
+//# sourceMappingURL=interpreter.js.map?rel=1627930534159
